@@ -14,23 +14,23 @@ h1{
     background-color: white;
 }
 
-
 .cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     display: inline-block; /*habilita a manipulação de tamanho*/
-    background-image: url("../img/Menu.svg");
-<<<<<<< HEAD
-} 
+    background-image: url("Menu.svg");
+
+
+
+}
 
 .cabecalho{
- background-color: var();
- display:flex;
- justify-content: space-between;
- align-items:center;
- 
-=======
-backbround-repeat: no-repeat;
-background-position: center;
->>>>>>> 8f165de2d840b4acb4ee43f050ba6f1976de175b
+    background-color: var(#ffffff); /*coloca um fundo branco*/
+    display: flex;/*muda a orientação de hrizontal para vertical*/
+    justify-content: space-between;/*joga uma div para a esquerda e outra para direita*/
+    align-items: center;/*centraliza na vertical como centro*/
+}
+.cabecalho__imagem{
+    width: 24px;
+    height: 24px;
 }
